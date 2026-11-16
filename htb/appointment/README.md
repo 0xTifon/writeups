@@ -19,9 +19,11 @@ So we have the port 80 open, lets check the web
 ## 2. Foothold
 ![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/appointment/assets/web.png)
 
+Really basic SQLi
+
 ## 3. Flag
 ![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/appointment/assets/flag.png)
 
-Well, this was easy
+Well, this was easy..
 
 Pwned.
