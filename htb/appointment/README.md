@@ -17,12 +17,12 @@ sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.128.97
 So we have the port 80 open, lets check the web
 
 ## 2. Foothold
-![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/appointment/assets/web.png)
+![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/appointment/assets/flag.png)
 
 Really basic SQLi
 
 ## 3. Flag
-![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/appointment/assets/flag.png)
+![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/appointment/assets/web.png)
 
 Well, this was easy..
 
