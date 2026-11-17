@@ -96,10 +96,10 @@ Finished
 
 If we check `http://10.129.130.116/dashboard` it redirects us to `http://10.129.130.116/login.php`
 
-## 2. Foothold
-
 And after a few attempts `admin` and `rKXM59ESxesUFHAd` was the combination 
 
 ## 3. Flag
 
 ![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/crocodile/assets/search.png)
+
+Pwned.
