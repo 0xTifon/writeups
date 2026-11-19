@@ -8,7 +8,7 @@
 ## 1. Enumeration
 
 ```bash
-sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.130.116
+sudo nmap -p- -sS --min-rate 5000 -T3 10.129.130.116
 ```
 
 `PORT   STATE SERVICE
