@@ -8,7 +8,7 @@
 ## 1. Enumeration
 
 ```bash
-sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.111.103
+sudo nmap -p- -sS --min-rate 5000 -T3 10.129.111.103
 ```
 
 `PORT     STATE SERVICE
@@ -105,3 +105,5 @@ Mode                 LastWriteTime         Length Name
 *Evil-WinRM* PS C:\Users\mike\Desktop> cat flag.txt
 ea81b7afddd03efaa0945333ed147fac
 ```
+
+Pwned.
