@@ -8,7 +8,7 @@
 ## 1. Enumeration
 
 ```bash
-sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.127.225
+sudo nmap -p- -sS --min-rate 5000 -T3 10.129.127.225
 ```
 
 `PORT    STATE SERVICE
@@ -57,3 +57,5 @@ flag.txt
 ➜ cat flag.txt
 72eaf5344ebb84908ae543a719830519
 ```
+
+Pwned.
