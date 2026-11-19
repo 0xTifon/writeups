@@ -8,7 +8,7 @@
 ## 1. Enumeration
 
 ```bash
-sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.122.174
+sudo nmap -p- -sS --min-rate 5000 -T3 10.129.122.174
 ```
 
 `PORT   STATE SERVICE
@@ -56,4 +56,4 @@ After a few tries i got nothing so went to try basic login credentials and `admi
 
 `6483bee07c1c1d57f14e5b0717503c73`
 
-
+Pwned.
