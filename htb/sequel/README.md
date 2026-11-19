@@ -8,7 +8,7 @@
 ## 1. Enumeration
 
 ```bash
-sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.130.73
+sudo nmap -p- -sS --min-rate 5000 -T3 10.129.130.73
 ```
 
 `PORT     STATE SERVICE
@@ -47,3 +47,5 @@ MariaDB [htb]> SELECT * FROM config;
 |  7 | authentication_method | radius                           |
 +----+-----------------------+----------------------------------+
 ```
+
+Pwned.
