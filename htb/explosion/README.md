@@ -8,7 +8,7 @@
 ## 1. Enumeration
 
 ```bash
-sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.1.13 
+sudo nmap -p- -sS --min-rate 5000 -T3 10.129.1.13 
 ```
 
 `PORT      STATE SERVICE
@@ -59,3 +59,5 @@ xfreerdp3 /v:10.129.1.13 /u:Administrator
 ## 3. Flag
 
 After this we will have the RCE and the flag on the Desktop, just open the file and copy the flag `951fa96d7830c451b536be5a6be008a0`
+
+Pwned.
